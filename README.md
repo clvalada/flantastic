@@ -9,7 +9,13 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow.svg)
 ![Shopify](https://img.shields.io/badge/Shopify-green.svg)
 
-## Shopify Buy-Button
+# Screenshot
+¡Flantastic! features a fully responsive design to provide a great experience for users on all devices.
+
+![Desktop and mobile screenshots](src/images/featured_flantastic.png)
+
+
+# Shopify Buy-Button
 
 Shopify generates the embed code which allows you to present your products exactly how you want.
 
