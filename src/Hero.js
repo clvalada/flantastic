@@ -11,7 +11,9 @@ const Hero = () => {
                 <h1>¡Flantastic!</h1>
                 <h2>Authentic Cuban Flan & Other Tasty Treats</h2>
                 <br></br>
-                <button>Order Now!</button>
+                <a href="#menu">
+                    <button>Order Now!</button>
+                </a>
             </div>
             <Socials />
         </div>
