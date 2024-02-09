@@ -185,6 +185,12 @@ font-weight: bolder;
     align-items: flex-start; 
   }
 
+  .about-image {
+    flex: 1;
+    padding-left: 20px;
+    margin-bottom:20px;
+  }
+
   .about-description {
     margin-right: 5px; 
 }
