@@ -187,6 +187,7 @@ font-weight: bolder;
 
   .about-image {
     flex: 1;
+    margin-right: 60px;
     margin-bottom:20px;
   }
 
