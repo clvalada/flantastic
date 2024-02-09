@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Protest+Riot&display=swap');
+
+* {
+  margin: 0;
+  text-align: center;
+}
+
+body {
+font-family: "Lato"; 
+
+}
+
+.hero-image {
+  background-image: url("./images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+  border-top: 5px #cfb28d;
+  border-bottom: 5px #cfb28d;
+}
+
+.hero-text {
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px #333;
+}
+
+.hero-text h1 {
+  font-family: "Protest Riot";
+  font-size: 90px;
+  text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #333;
+}
+
+button:hover {
+background-color: blanchedalmond;
+font-weight: bolder;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin: 20px;
+  color: whitesmoke
+}
+
+.navbar a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin: 20px;
+  color: whitesmoke
+}
+
+.socials a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.menu {
+  border-top: 5px solid #cfb28d;
+  border-bottom: 5px solid #cfb28d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-description p {
+  padding-bottom: 20px;
+  max-width: 900px;
+  text-align: center;
+}
+
+.menu h1 {
+  padding-top: 20px;
+}
+
+.about {
+  background-image: url("./images/flag.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-height: auto; 
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  border-bottom: 5px solid #cfb28d;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex: 1;
+  padding-left: 60px;
+  margin-bottom:20px;
+}
+
+.about-description {
+  max-width: 900px;
+  text-align: center;
+  flex: 1;
+  margin-right: 30px;
+}
+
+.about-description p {
+  padding-bottom: 20px;
+  font-size: large;
+}
+
+.about a {
+  color:#000;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+
+.about-h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .about-description {
+    margin-right: 5px; 
+}
+}
